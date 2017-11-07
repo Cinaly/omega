@@ -1,0 +1,345 @@
+.container div{
+    position: relative;
+}
+.container img{
+    vertical-align: bottom;
+}
+
+a{
+    display: inline-block;
+}
+div.top{
+    color:white;
+    height:45%;
+}
+
+div.top>div:first-child a{
+    color:white;
+}
+div.top>div.top_center{
+    margin:14% auto;
+    text-align: center;
+}
+div.top>div.top_center>.city{
+    font-size: 16px;
+}
+div.top>div.top_center>.title{
+    font-size: 2.8em;
+    letter-spacing: 5px;
+    line-height: 60px;
+}
+div.top>div.tab{
+    padding: 20px 0 0 35px;
+}
+div.top>div.bg{
+    position: absolute;
+    top:0;
+    z-index: -1;
+    max-height: 655px;
+    width: 100%;
+    height:100%;
+}
+div.top>div.bg>.sca{
+    width:100%;
+    overflow: hidden;
+    background:transparent;
+    height:100%;
+}
+div.top>div.bg>.sca>img{
+    width: 100%;
+    /*transform: scale(1.1);*/
+    /*transition: all 1.5s;*/
+    animation: animations 5s ease-out forwards;
+}
+div.top>div.bg>div{
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+@keyframes animations{
+    0%{transform:scale(1)}
+    50%{transform:scale(1.3)}
+    70%{transform:translate(1.2)}
+    100%{transform:scale(1.1)}
+}
+
+
+/*--------------------------------------------------------------*/
+div.second{
+    background: #c40d2e;
+    color: white;
+    padding:70px 0 50px;
+}
+div.second>a{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+div.second>.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+div.second>.info h3{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+div.second>.info p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+div.second>.info a{
+    color: white;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+div.second>.info>div{
+    width:29%;
+    margin: 20px;
+}
+div.second .get_route{
+    border:1px solid #fff;
+    margin-top: 5px;
+    padding: 5px 15px;
+}
+
+/*--------------------------------------------------------------*/
+div.third{
+    width:100%;
+    padding-top: 70px;
+    text-align: center;
+}
+div.third>h2{
+    font-size: 24px;
+    font-weight: normal;
+    color: #c40d2e;
+    letter-spacing: 3px;
+}
+div.third>ul{
+    margin: 40px 40px;
+}
+div.third>.ul1{
+    display:flex;
+    justify-content: center;
+}
+div.third>.ul1>li{
+    width: 13%;
+}
+div.third>.ul1>li img{
+    margin-bottom: 5px;
+}
+div.third>div{
+    overflow: hidden;
+    width: 80%;
+    margin:0 auto;
+}
+div.third>div>.ul2{
+    width:300%;
+    position: relative;
+}
+div.third>div>.ul2>li{
+    width:33.33%;
+    float:left;
+}
+div.third>.stage{
+    /*perspective: 800px;*/
+    height: 500px;
+    perspective-origin: 50% 100px;
+}
+div.third>div>.img_list{
+    transition: all 1s;
+    width:100%;
+    transform-style: preserve-3d;
+    position: absolute;
+    min-height: 500px;
+    /*left: 50%;*/
+    transform: rotateY(0deg);
+}
+
+div.third>div>.img_list>.piece{
+    width:100%;
+    transition: opacity 1s, transform 1s;
+    position: absolute;
+    bottom: 0;
+    top:0;
+    left: 0;
+    right:0;
+    backface-visibility:hidden;
+    user-select: none;
+}
+/*div.third>div>.img_list>:nth-child(1){*/
+    /*transform: rotateY(0deg) transLateZ(806px);*/
+/*}*/
+/*div.third>div>.img_list>:nth-child(2){*/
+    /*transform: rotateY(120deg) transLateZ(806px);*/
+/*}*/
+/*div.third>div>.img_list>:nth-child(3){*/
+    /*transform: rotateY(240deg) transLateZ(806px);*/
+/*}*/
+
+div.third>div>.ul2 img{
+    width:100%;
+}
+div.third>.ul3{
+    display:flex;
+    margin:20px;
+    justify-content: center;
+}
+
+div.third>.ul3 a{
+    width: 10px;
+    height: 10px;
+    background: #555;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 0 10px;
+    box-sizing: border-box;
+    transition: all .5s linear;
+}
+div.third>.ul3 a.active{
+    border: 2px solid #c40d2e;
+    background: #fff;
+    transition: all .5s linear;
+}
+
+/*--------------------------------------------------------------*/
+div.map{
+    width: 100%;
+    height: 620px;
+    margin: 100px 0 50px;
+    overflow: hidden;
+}
+#map{
+    width: 100%;
+    height:100%;
+}
+div.map>.route{
+    position: absolute;
+    height: 373px;
+    width:400px;
+    top:50px;
+    background: rgba(196,13,46,.96);
+    right:0;
+    color: #fff;
+    display:flex;
+}
+.route>.left{
+    width:30px;
+    height:100%;
+    background:#c40d2e;
+    text-align: center;
+    cursor: pointer;
+}
+.route>.left>span{
+    display: inline-block;
+    margin: 172px auto;
+}
+.route>.left:hover{
+    background:#ae0c29;
+}
+
+.route>.search{
+    width: 80%;
+    padding: 50px;
+}
+.route>.search>h2{
+    font-weight: normal;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.route>.search>ul{
+
+    display: flex;
+}
+.route>.search>ul>li{
+    width:50px;
+    height:50px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.route>.search>ul>li:not(:last-child){
+    /*border-left:1px solid  transparent;*/
+}
+.car{
+    background: url(../img/storedetails/picto-travel-mode.png) no-repeat 0 0;
+}
+.bus{
+    background: url(../img/storedetails/picto-travel-mode.png) no-repeat -50px 0;
+}
+.walk{
+    display: none;
+    background: url(../img/storedetails/picto-travel-mode.png) no-repeat -150px 0;
+}
+
+.search>ul>li.on{
+    background-position-y: -50px;
+}
+.route>.search>.input_location{
+    width:100%;
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+}
+.route>.search>.input_location>input{
+    background: transparent;
+    line-height: 49px;
+    height: 49px;
+    box-sizing: border-box;
+    width:85%;
+    outline: none;
+    border: none;
+    border-right: 1px solid #fff;
+    padding:10px 20px ;
+    color: #fff;
+}
+.route>.search>span{
+    position: relative;
+    top: 41px;
+    font-size: 1.2em;
+}
+.input_location>img{
+    position: relative;
+    top: -13px;
+    left: 8px;
+    cursor: pointer;
+}
+.route>.search>:last-child{
+    position: absolute;
+    right: 10%;
+    bottom: 24%;
+    color: #fff;
+    font-size: 18px;
+}
+.route>.search>:last-child>img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+input::-webkit-input-placeholder{
+    color: #fff;
+}
+input:-moz-placeholder{
+    color: #fff;
+}
+input:-ms-input-placeholder{
+    color: #fff;
+}
+input::-moz-placeholder{
+    color: #fff;
+}
+div.map>.open{
+    right: 0px;
+    transition: all .5s linear;
+}
+div.map>.close{
+    right:-370px;
+    overflow: hidden;
+    transition: all .5s linear;
+}

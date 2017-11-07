@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>欧米茄旗舰店</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/storedetails.css">
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=wQsdU0ohQMlOWsQS6uogXGoTxPVwcHCi" type="text/javascript"></script>
+</head>
+<body>
+<div class="main">
+    <div id="header"></div>
+    <div class="container">
+        <!--头部-->
+        <div class="top">
+            <div class="tab">
+                <a href="index.html">首页</a>
+                &nbsp;>&nbsp;
+                <a href="search_store.html">寻找销售点</a>
+                >&nbsp;
+                <a href="javascript:;">详细资料</a>
+            </div>
+            <div class="top_center">
+                <p class="city">上海</p>
+                <p class="title">欧米茄旗舰店</p>
+            </div>
+            <div class="bg">
+                <div class="sca">
+                    <img src="img/storedetails/showroom_generic_boutique.jpg" alt="">
+                </div>
+                <div></div>
+            </div>
+        </div>
+        <!--地址等-->
+        <div class="second">
+            <a href="search_store.html"> <&nbsp;&nbsp;返回</a>
+            <div class="info">
+                <!--地址-->
+                <div>
+                    <h3>地址</h3>
+                    <p>欧米茄旗舰店</p>
+                    <p>上海市徐汇区虹桥路1号108-109店铺</p>
+                    <p>200030 上海</p>
+                    <p>中国</p>
+                    <a href="#map" class="get_route">获取路线</a>
+                </div>
+                <!--联系方式-->
+                <div>
+                    <h3>联系方式</h3>
+                    <p>T. +86 (021)64376672</p>
+                    <p>T. +86 (021)64376671 </p>
+                    <a href="javascript:;">Boutique.GrandGateway.sh.cn@Omegawatches.com</a>
+                </div>
+                <!--营业时间-->
+                <div>
+                    <h3>营业时间</h3>
+                    <p>周一 - 周日 10:00 - 22:00</p>
+                </div>
+            </div>
+        </div>
+        <!--商店图片-->
+        <div class="third">
+            <h2>欧米茄专卖店</h2>
+            <ul class="ul1">
+                <li>
+                    <img src="img/storedetails/wanbiao.png" alt="">
+                    <p>腕表</p>
+                </li>
+                <li>
+                    <img src="img/storedetails/zhubao.png" alt="">
+                    <p>华贵珠宝</p>
+                </li>
+            </ul>
+            <div class="stage">
+                <div class="img_list">
+                    <img src="img/storedetails/Boutique_1.jpg" class="piece">
+                    <img src="img/storedetails/Boutique_2.jpg" class="piece">
+                    <img src="img/storedetails/Boutique_3.jpg" class="piece">
+                </div>
+                <!--<ul class="ul2">-->
+                    <!--<li>-->
+                        <!--<img src="img/storedetails/Boutique_1.jpg">-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<img src="img/storedetails/Boutique_2.jpg">-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<img src="img/storedetails/Boutique_3.jpg">-->
+                    <!--</li>-->
+                <!--</ul>-->
+            </div>
+            <ul class="ul3">
+                <li><a href="javascript:;" class="active"></a></li>
+                <li><a href="javascript:;"></a></li>
+                <li><a href="javascript:;"></a></li>
+            </ul>
+        </div>
+        <!--地图-->
+
+        <div class="map">
+            <div id="map">
+            </div>
+            <div class="route">
+                <div class="left">
+                    <span> > </span>
+                </div>
+                <div class="search">
+                    <h2>获取前往专卖店的路线</h2>
+                    <ul>
+                        <li class="car on">
+                        </li>
+                        <li class="bus">
+                        </li>
+                        <li class="walk">
+                        </li>
+                    </ul>
+                    <div class="input_location">
+                        <input type="text" placeholder="输入您的当前位置" id="suggestId">
+                        <img id="btn_search" src="img/icon/search.svg"/>
+                        <div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>
+                    </div>
+                    <span></span>
+                    <a href="http://map.baidu.com"><img src="img/storedetails/store-dw.png" alt="">查看路线</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div id="footer"></div>
+</div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/header.js"></script>
+<script src="js/storedetails.js"></script>
+
+</body>
+</html>

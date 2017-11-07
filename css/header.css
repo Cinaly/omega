@@ -1,0 +1,315 @@
+
+#header > div:last-child {
+    height: 60px;
+}
+
+/*导航*/
+#nav {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    background: #fff;
+    z-index: 1000;
+    box-shadow: 0 1px 20px #F1F1F1
+}
+#nav > #navigation{
+    position:initial;
+}
+    /*导航-菜单*/
+#nav > #navigation > #menu {
+    position: absolute;
+    left: 30px;
+}
+
+#nav > #navigation > #menu > a {
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+}
+
+#nav > #navigation > #menu img {
+    top: 50%;
+    margin-top: -6px;
+}
+
+#nav > #navigation > #menu span {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 60px;
+}
+
+/*导航-logo*/
+#nav > #navigation > #logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -40px;
+    margin-top: -20px;
+}
+
+#nav > #navigation > #logo img {
+    height: 40px;
+}
+
+/*导航-登入/搜索*/
+#nav > #navigation > #seek {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    margin-top: -18px;
+}
+
+/*菜单栏*/
+#menu_bar {
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    transition: all .3s linear;
+    z-index: 1000;
+}
+
+/*菜单-关闭按钮*/
+#menu_bar > div:first-child {
+    width: 100%;
+    height: 60px;
+
+}
+
+#menu_bar > div:first-child > a {
+    text-align: center;
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+    border-bottom: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    transition: all .3s linear;
+}
+
+#menu_bar > div:first-child > a > span {
+    font-size: 18px;
+    color: #C40D2E;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -18px;
+    margin-top: -12px;
+
+}
+
+#menu_bar > div:first-child > a > span:first-child {
+    font-size: 28px;
+    margin-left: -60px;
+    margin-top: -22px;
+}
+
+/*菜单-一级分页*/
+#menu_bar > #menu_one {
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    border-right: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+#menu_bar > #menu_one > ul {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: all .3s linear;
+}
+
+#menu_bar > #menu_one > ul > li {
+    text-align: center;
+    height: 90px;
+}
+
+#menu_bar > #menu_one > ul > li > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+#menu_bar > #menu_one > ul > li > a > img {
+    background: #555;
+}
+
+#menu_bar > #menu_one > ul > li p {
+    color: #555;
+}
+
+#menu_bar > #menu_one > ul > li:hover p {
+    color: #C40D2E;
+}
+
+/*菜单-二级分页*/
+#menu_bar > #menu_two {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 210px;
+    top: 0;
+    background-color: #fff;
+    overflow: auto;
+    z-index: 10;
+    transition: all .3s linear;
+}
+
+#menu_bar > #menu_two > ul > li > a > img {
+    background-color: #555;
+}
+
+#menu_bar > #menu_two > ul > li:hover img {
+    background: #CB2A47;
+}
+
+#menu_bar > #menu_two > ul > li:first-child {
+    font-size: 21px;
+    color: #C40D2E;
+}
+
+#menu_bar > #menu_two > ul > li:nth-child(2) img {
+    width: 48%;
+}
+
+#menu_bar > #menu_two > ul > li:nth-child(3) img {
+    width: 43.4%;
+}
+
+#menu_bar > #menu_two > ul > li:nth-child(4) img {
+    width: 53.4%;
+}
+
+#menu_bar > #menu_two > ul > li:nth-child(5) img {
+    width: 33.6%;
+}
+
+#menu_bar > #menu_two > ul > li:nth-child(6) img {
+    width: 46.8%;
+}
+
+#menu_bar > #menu_two > ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#menu_bar > #menu_two > ul > li {
+    width: 100%;
+    height: 50px;
+    color: #555;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#menu_bar > #menu_two > ul > li > a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    color: #555;
+}
+
+#menu_bar > #menu_two > ul > li > a:hover {
+    color: #c40d2e;
+}
+
+#menu_bar > #menu_two > ul > li.menu_two_li_list {
+    margin-top: 30px;
+}
+
+.watch_search {
+    background: #F3F3F3;
+}
+
+/*菜单-三级分页*/
+#menu_bar > #menu_three {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 445px;
+    top: 0;
+    background-color: #F9F9F9;
+    overflow: auto;
+    z-index: 10;
+    transition: all .4s linear;
+}
+
+#menu_bar > #menu_three > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .4s linear;
+    opacity: 1;
+}
+
+#menu_bar > #menu_three > div > div > ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#menu_bar > #menu_three > div > div > ul > li {
+    margin: 10px
+}
+
+#menu_bar > #menu_three > div > div > ul > li > a > p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#menu_bar > #menu_three > div > a {
+    display: inline-block;
+    margin: 0 auto;
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+}
+
+#menu_bar > #menu_three > div > a:hover {
+    background-color: #C40D2E;
+    color: #F9E5E9;
+}
+
+#menu_bar > #menu_three > div > div > ul > li > a > img {
+    width: 127px;
+    height: 168px;
+}
+
+#menu_bar > #menu_three > div > div > ul > li > a > p {
+    width: 127px;
+    color: #555;
+}
+
+#menu_bar > div:last-child {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 210px;
+    top: 0;
+    z-index: 1;
+}

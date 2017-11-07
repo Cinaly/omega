@@ -1,0 +1,38 @@
+#footer{
+    width:100%;
+}
+#footer>#shortcut{
+    text-align:center;
+    font-size:16px;
+    margin:15px;
+}
+#footer>#column_content{
+    background-color:#F9F9F9;
+    text-align:center;
+    padding:20px 0;
+
+}
+#footer>#column_content>div{
+    display:inline-table;
+    width:14%;
+    text-align:left;
+    padding:5px 5px 5px 15px;
+    height:160px;
+    box-sizing:border-box;
+}
+#footer>#column_content>div>p{
+    font-size:18px;
+    color:#c40d2e;
+    margin:20px 0;
+}
+#column_content>div:not(:last-child){
+    border-right:1px solid #E5E5E5;
+}
+#footer>#copyright{
+    background-color:#F2F2F2;
+    text-align:center;
+    height:60px;
+    line-height:60px;
+    font-size:14px;
+    color:#555;
+}

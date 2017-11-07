@@ -1,0 +1,260 @@
+.pm-breadcrumb{
+	//position: absolute;
+	margin-top:30px;
+	margin-left:60px;
+}
+.pm-bc-text{
+	color: #C92B43;
+}
+.pm-intro{
+	//position: absolute;
+	width:45.636358%;
+	text-align: center;
+	margin-top:80px;
+	margin-left:520px;
+	font-size: 16px;
+}
+.pm-list-nav{
+	//position: absolute;
+	margin-top:70px;
+	margin-left:500px;
+}
+.pm-list-nav>ul{
+	display:flex;
+	width:900px;
+}
+.pm-list-nav>ul>li{
+	margin-left: 42px;
+}
+.pm-list-nav>ul>li>a{
+	font-size: 16px;
+}
+.pm-vertical-text-container{
+	margin-top: 70px;
+}
+.pm-vc-1{
+	background-image:url(../img/World/Homepage_Space_1600x655.jpg);
+	width:100%;
+	height:773px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.pm-vc-2{
+	display:block;
+	position:absolute;
+	background:black;
+	opacity:0.6;
+	width:1903px;
+	height:773px;
+}
+.pm-title-header-1{
+	font-size:36px;
+	color:#FFFFFF;
+	margin-top:-440px;
+	margin-left:780px;
+	position:absolute;
+}
+.pm-bloc-1{
+	margin-top: 105px;
+	margin-left:985px;
+}
+.pm-bloc-1>a>img{
+	width:710px;
+	height:532px;
+}
+.pm-bloc-2{
+	margin-top: -340px;
+	margin-left: 120px;
+}
+.pm-title{
+	color:#C92B43;
+	font-size: 33px;
+	margin-top:20px;
+	margin-left:80px;
+}
+.pm-text{
+	font-size:19px;
+	margin-top: 30px;
+	margin-left: 80px;
+	width:680px;
+	color:#555;
+}
+.pm-button{
+	position:relative;
+	font-size:16px;
+	padding:10px 30px 10px 30px;
+	transition: all .5s cubic-bezier(.19,1,.22,1);
+	display:inline-block;
+	border:1px solid #E5E5E5;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+.pm-button:hover{
+	background:#C40D2E;
+	color:white;
+}
+
+
+
+
+.pm-clearfix{
+	margin-top:210px;
+}
+.pm-bloc-3{
+	margin-left:210px;
+}
+.pm-bloc-3>a>img{
+	width:710px;
+	height:532px;
+}
+.pm-bloc-4{
+	margin-top: -340px;
+	margin-left: 910px;
+}
+.pm-title{
+	color:#C92B43;
+	font-size: 33px;
+	margin-top:20px;
+	margin-left:80px;
+}
+.pm-text{
+	font-size:19px;
+	margin-top: 30px;
+	margin-left: 80px;
+	width:680px;
+	color:#555;
+}
+.pm-button{
+	position:relative;
+	font-size:16px;
+	padding:10px 30px 10px 30px;
+	transition: all .5s cubic-bezier(.19,1,.22,1);
+	display:inline-block;
+	border:1px solid #E5E5E5;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+.pm-button:hover{
+	background:#C40D2E;
+	color:white;
+}
+.pm-title-header-3{
+	font-size:36px;
+	color:#FFFFFF;
+	margin-top:-440px;
+	margin-left:875px;
+	position:absolute;
+}
+.pm-title-header-4{
+	font-size:30px;
+	color:#FFFFFF;
+	margin-top:-350px;
+	margin-left:770px;
+	position:absolute;
+}
+.pm-vc-3{
+	background-image:url(../img/World/Homepage_Sport_1600x655.jpg);
+	width:100%;
+	height:773px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.pm-vc-5{
+	 background-image:url(../img/World/Homepage_watchmaking_1600x655.jpg);
+	 width:100%;
+	 height:773px;
+	 background-repeat:no-repeat;
+	 background-size:cover;
+ }
+.pm-vc-6{
+	background-image:url(../img/World/Homepage_Ocean_big.jpg);
+	width:100%;
+	height:773px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.pm-title-header-5{
+	font-size:30px;
+	color:#FFFFFF;
+	margin-top:-350px;
+	margin-left:620px;
+	position:absolute;
+}
+.pm-title-header-7{
+	font-size:36px;
+	color:#FFFFFF;
+	margin-top:-440px;
+	margin-left:860px;
+	position:absolute;
+}
+.pm-vc-7{
+	background-image:url(../img/World/Homepage_Social_1600x655.jpg);
+	width:100%;
+	height:773px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.pm-vc-8{
+	 background-image:url(../img/World/planet_omega_homepage_cinema_SPECTRE_1600x655.jpg);
+	 width:100%;
+	 height:773px;
+	 background-repeat:no-repeat;
+	 background-size:cover;
+ }
+.pm-vc-9{
+	background-image:url(../img/World/Homepage_heritage_1600x655.jpg);
+	width:100%;
+	height:773px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.pm-vertical-text-container1{
+	margin-top: 240px;
+}
+.pm-vertical-text-container2{
+	margin-top: 210px;
+}
+.pm-clearfix1{
+	height:850px;
+}
+.pm-vc-0{
+	margin-top: 30px;
+	margin-left: 210px;
+}
+.pm-vc-0>a>img{
+	width:710px;
+	height:532px;
+	margin-top: 210px;
+}
+.scroll{
+	opacity:0;
+}
+.scroll0{
+	opacity:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+﻿/*设置页面通用样式*/
+body{
+	font:12px arial,helvetica,"微软雅黑",simhei,Arial,Helvetica,sans-serif;
+	color:#000;
+	margin:0;
+	padding:0;
+	background:#fff;
+}
+p,h1,h2,h3,h4,h5,h6,ol,ul,li,dl,dd,pre{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-weight:normal;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+a:hover{
+	color:#c40d2e;
+}
+img{
+	vertical-align:middle;
+}
+
+

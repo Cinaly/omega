@@ -1,0 +1,186 @@
+.header-inner{
+    width:100%;
+    height:150px;
+    background: #474E57;text-align: center;
+}
+.logo-replace{
+    //width:100%;
+    //height:150px;
+    background: #474E57 url(../img_1/logo-her-time.png) no-repeat;
+    background-size: 230px 72px;
+}
+.logo-replace{
+    display: inline-block;
+    width:230px;
+    height:72px;
+    margin-top:23px;
+    margin-left: -15px;
+}
+.text-center>a{
+    font-size: 13px;
+    line-height: 1;
+    letter-spacing: 1px;
+    color:white;
+    display: inline-block;
+    margin-left: 597px;
+    width: 200px;
+    height:20px;
+    position: absolute;
+    top:105px;
+}
+.navbar{
+    background: white;
+    width:100%;
+    height:82px;
+    margin-top:-15px;
+}
+.divder{
+    height: 25px;
+    border-right:1px solid #CECECE;
+    position: absolute;
+    top:179px;
+    left:805px;
+}
+.active{
+    border-bottom:  5px solid #FF5BB4;
+    padding-bottom:28px;
+}
+ul{
+    width:210px;
+    display: flex;
+    margin-left: 750px;
+}
+li{
+    width:100px;
+    margin-left: 50px;
+}
+.navbar>ul>li>a{
+    color:black;
+    font-size: 14px;
+    display: inline-block;
+    line-height:80px;
+    width:90px;
+    height:20px;
+}
+.active1:hover{
+    border-bottom:5px solid #FF5BB4;
+    padding-bottom:28px;
+}
+.ellipsis-featured{
+    padding-top: 30px;
+}
+.ellipsis-featured p{
+    width:460px;
+}
+.center-inner{
+    position: relative;
+    top:-323px;
+    left:980px;
+}
+.container{
+    width:1482px;
+    height: 497px;
+    background: white;
+    margin-left: 260px;
+    margin-top:40px;
+ }
+ .img-responsive>a>img{
+    width:334px;
+    height:334px;
+ }
+.center-inner1{
+    height:246px;
+    width:304px;
+    background: white;
+    padding-top:20px;
+    padding-left:30px;
+}
+.center-inner1>h3>a{
+    padding-top:10px;
+}
+.image-wrap{
+    display:flex;
+    width:1500px;
+    height:600px;
+    margin-left:210px;
+}
+.clearfix{
+    margin-top: 42px;
+    margin-left:49px;
+}
+.pm-module{
+    width:1487px;
+    height:757px;
+    background: white;
+    margin-left:260px;
+    margin-top:85px;
+}
+.image-wrap1{
+    display:flex;
+    /*width:717px;*/
+    /*height:580px;*/
+    margin-left:210px;
+}
+.image-wrap1>a>img{
+    width:369px;
+    height:601px;
+}
+.equal-secondary{
+    margin-top:42px;
+    margin-left:-165px;
+}
+.center-inner2{
+    height:371px;
+    width:325px;
+    background: white;
+    padding-top:230px;
+    padding-left:30px;
+}
+.center-inner2>h3>a{
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

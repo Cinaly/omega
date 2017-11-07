@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body ondragstart="return false ">
+<header id="header"></header>
+<section>
+    <!--顶部轮播-->
+    <div id="banner">
+        <div id="banner_img_list">
+            <ul>
+            </ul>
+        </div>
+        <div id="banner_buttons">
+            <ul>
+                <li class="on"><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+            </ul>
+        </div>
+        <img src="img/banner/banner_bg.png" style="width:100%">
+    </div>
+
+    <!--楼层主体-->
+
+    <!--楼层1-->
+    <div id="floor_one">
+        <div class="floor_font_style">
+            <h2 class="floor_h2">${data["floor_one"][0].f_title}</h2>
+            <p class="floor_p">${data["floor_one"][0].f_content}</p>
+        </div>
+        <div>
+            <img src="${data["floor_one"][0].f_url}">
+            <div>
+                <img src="${data["floor_one"][1].p_img_l}" title="欧米茄45.5毫米至臻天文台GMT腕表">
+                <p class="floor_p">${data["floor_one"][1].p_title}</p>
+            </div>
+        </div>
+    </div>
+
+    <!--楼层2-->
+    <div id="floor_two"></div>
+
+    <!--楼层3-->
+    <div id="floor_three"></div>
+
+    <!--楼层4-->
+    <div id="floor_four"></div>
+
+    <!--楼层5-->
+    <div id="floor_five"></div>
+
+    <!--楼层6-->
+    <div id="floor_six"></div>
+
+    <!--底部新闻-->
+    <div id="news">
+        <h2>最新消息</h2>
+        <div>
+            <ul id="news_subject">
+            </ul>
+        </div>
+        <div id="news_buttons">
+            <ul>
+                <li class="on"><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+            </ul>
+        </div>
+    </div>
+
+
+</section>
+
+<footer id="footer"></footer>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/header.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

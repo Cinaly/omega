@@ -1,0 +1,271 @@
+/****总样式*****/
+h1{
+    font-weight: 400;
+}
+p{
+    margin:0;
+}
+/*****产品样式*****/
+.pm-main-container{
+    overflow: hidden;
+}
+.pm-product-header{
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background: #f9f9f9;
+    display: flex;
+}
+.pm-product-image{
+    width:37.55%;
+    margin: 0 2.91% 0 11%;
+}
+.pm-product-image img{
+    width:100%;
+}
+.pm-product-details{
+    width:37.55%;
+    display: inline-block;
+    vertical-align: middle;
+    height:100%;
+    margin-top: 20%;
+}
+.pm-product-collection{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.pm-product-model{
+    color:#c40d2e;
+    font-size:21px;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 2.56px;
+}
+.pm-product-material{
+    margin-top:16px;
+    letter-spacing: 0.64px;
+    font-size:15px;
+    color:#646464;
+}
+
+.pm-product-ref{
+    color:#646464;
+    letter-spacing:0.64px;
+    font-size:15px;
+    margin-top:0;
+    margin-bottom:24px;
+}
+.pm-price{
+    height:auto;
+    font-size:21px;
+    color:#646464;
+}
+.pm-price-mention{
+    height:auto;
+    font-size:14px;
+    color:#646464;
+}
+.pm-link-border{
+    margin-bottom:40px;
+}
+.pm-link-border span{
+    font-size: 16px;
+    color:#646464;
+    border-bottom:1px solid #E5E5E5;
+}
+.pm-link-border span:hover{
+    color:#c40d2e;
+    border-bottom:1px solid #c40d2e;
+    cursor:pointer;
+}
+.track-see-all-models{
+    display: inline-block;
+    width: 225px;
+    height:50px;
+    line-height: 50px;
+    border:1px solid #e5e5e5;
+    text-align: center;
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    color:#555;
+    transition: all .25s linear;
+}
+.track-see-all-models:hover{
+    background: #c40d2e;
+    color: white;
+}
+/*****细节描述*****/
+.pm-product-description{
+    width:100%;
+    margin:100px auto;
+    display: flex;
+}
+.pm-product-description-text{
+    display:inline-block;
+    width:37.55%;
+    margin: 0 2.91% 0 11%;
+}
+.pm-title{
+    font-size:38px;
+    color:#c40d2e;
+    line-height: 120%;
+    text-transform: uppercase;
+    letter-spacing: 2.56px;
+    margin-top: 0;
+    margin-bottom: 26.6px;
+    font-weight: 400;
+}
+.pm-container-more-text{
+    margin-bottom: 32px;
+}
+.pm-text{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 33.6px;
+    color:#646464;
+}
+/****特色****/
+.pm-accordion-data{
+    width: 29.45%;
+    display: inline-block;
+    margin: 73px 0 32px;
+}
+.pm-tooltip{
+    display: none;
+    position: absolute;
+    z-index: 20;
+    top:-14;
+    left: -384px;
+    width:320px;
+    padding:24px;
+    background: #fff;
+    border:1px solid #e5e5e5;
+    font-size: 13px;
+    line-height: 120%;
+    color:#555;
+}
+.pm-accordion{
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.pm-accordion-item{
+    color:#c40d2e;
+    padding:19.2px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+.pm-accordion-wrapper{
+    border-bottom: 1px solid #e5e5e5;
+    height: 0;
+    overflow: hidden;
+}
+.pm-accordion-content{
+    padding-bottom: 19.2px;
+    position: relative;
+}
+.pm-tooltip-wrapper{
+    display: block;
+    cursor: pointer;
+}
+.fade{
+    height:0;
+    opacity:0;
+    overflow:hidden;
+
+}
+.in{
+    height:100%;
+    opacity:1;
+}
+.pm-tooltip-wrapper-title{
+    font-size: 16px;
+    color:#555;
+
+}
+.pm-tooltip-wrapper-title:hover{
+    color:#c40d2e;
+}
+.bodytext{
+    font-size: 16px;
+    color:#555;
+}
+.bodytext-title{
+    font-size: 16px;
+    color:#555;
+    font-weight:bold;
+}
+.pm-module-visible{
+    margin:100px auto;
+    text-align: center;
+    width:78%;
+}
+.pm-module-container{
+    display: flex;
+    margin:0 -2%;
+}
+.pm-bloc-1 , .pm-bloc-2{
+    width:46%;
+    margin:auto 2%;
+}
+
+.pm-responsive-image{
+    width:100%;
+}
+.pm-bloc-2{
+    padding-top: 2%;
+    text-align: left;
+}
+.pm-button{
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+    color: #555;
+    cursor: pointer;
+    transition: all .25s linear;
+    border: 1px solid #e5e5e5;
+}
+.pm-button>span{
+    position: relative;
+    top:-1px;
+    font-size: 16px;
+    letter-spacing: 0.64px;
+    vertical-align: middle;
+    line-height: 120%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.pm-button:hover{
+    background: #c40d2e;
+    color: white;
+}
+
+
+.pm-module-store{
+    margin:100px auto;
+    width: 78%;
+    text-align: center;
+}
+.pm-posr{
+    position: relative;
+}
+.pm-counter{
+    position: relative;
+    letter-spacing: 3.84px;
+    color:#c40d2e;
+    font-size: 18px;
+}
+.pm-scroller{
+    position: relative;
+    width:100%;
+    margin:.625em 0 2em;
+}
+.pm-product-list{
+    padding:0;
+    width:6000px;
+}
+.pm-product-list-item{
+    float: left;
+}

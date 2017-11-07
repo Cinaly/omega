@@ -1,0 +1,93 @@
+a{
+	outline: 0;
+    text-decoration:none;
+	color:#555;
+}
+.pm-module-visible{
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+.pm-vertical-text-container{
+	display:block;
+
+}
+.pm-background-image{
+	text-align: center;
+
+}
+.pm-responsive-image{
+	width: 100%;
+	max-width:100%;
+}
+.pm-grid-center{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top:175px;
+	text-align: center;
+}
+.pm-vc-1{
+	width:100%;
+	height:100%;
+	display: table;
+	table-layout: fixed;
+}
+.pm-vc-2{
+	display: table-cell;
+	vertical-align: middle;
+}
+.pm-title-header-2{
+	font-size: 45px;
+	letter-spacing: 2.56px;
+	margin-bottom: 4px;
+	line-height: 120%;
+	color: #fff;
+}
+.pm-product-search-form{
+
+	margin-top: 35px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.pm-form-item-hasfocus{
+	border:1px solid rgba(255,255,255, .3);
+	text-align: left;
+	padding-left: 20px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.search-product{
+	width:100%;
+	padding:0 20px;
+	pointer-events: none;
+	color:#fff;
+	text-align: left;
+	font-size: 12px;
+}
+/******搜索结果******/
+.pm-search-title{
+	width:94.18%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 60px 0 100px;
+	position: relative;
+	text-align: center;
+}
+.pm-message{
+	font-size: 16px;
+	letter-spacing: 0.64px;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.pm-result-wrapper{
+	margin-left: -2.5%;
+	margin-right: -2.5%;
+	margin-top:60px;
+}
+
+/*#show-list{
+	display: flex;
+	justify-content: space-between;
+}*/
